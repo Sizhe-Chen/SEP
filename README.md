@@ -1,5 +1,5 @@
 # Decription
-* The code is the official implementation of paper "Self-Ensemble Protection: Training Checkpoints Are Good Data Protectors"
+* The code is the official implementation of paper [Self-Ensemble Protection: Training Checkpoints Are Good Data Protectors](https://openreview.net/forum?id=9MO7bjoAfIA)
 * This repository supports data protection on CIFAR-10, CIFAR-100, ImageNet subset
 * protecting DNN and appropriator DNN: ResNet18, SENet18, VGG16, DenseNet121, GoogLeNet
 * The experiments are run in an NVIDIA A100 GPU, but could modify the batch size to run on small GPUs
@@ -10,7 +10,7 @@ conda env create -f pt.yaml
 
 
 # Reproduction
-* train the protecting DNN
+* train the protecting DNN for CIFAR-10, CIFAR-100, ImageNet subset
 
 ```
 python vanilla.py
